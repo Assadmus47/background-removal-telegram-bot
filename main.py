@@ -11,7 +11,7 @@ async def help (update: Update , context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(chat_id=update.effective_chat.id, text="Hi , I'am a background removel bot . to start click on /start ")
     
 async def start (update: Update , context: ContextTypes.DEFAULT_TYPE):
-    await context.bot.send_message(chat_id=update.effective_chat.id, text="to remove background from the image please send me the image ")
+    await context.bot.send_message(chat_id=update.effective_chat.id, text="To remove background from the image please send me the image ")
 async def process_image(photo_name: str):
     name, _ = os.path.splitext(photo_name)
     output_photo_path = f'./processed/{name}.png'
@@ -35,7 +35,7 @@ async def handle_message(update: Update , context: ContextTypes.DEFAULT_TYPE):
     
     photo_file = await context.bot.get_file(file_id)
     await photo_file.download_to_drive(custom_path=f'./temp/{photo_name}')
-    await context.bot.send_message(chat_id=update.effective_chat.id, text="we are processing your image please wait")
+    await context.bot.send_message(chat_id=update.effective_chat.id, text="We are processing your image thank you for waiting :)")
     processed_image = await process_image(photo_name)
     await context.bot.send_document(chat_id=update.effective_chat.id, document=processed_image)
     os.remove(processed_image)
