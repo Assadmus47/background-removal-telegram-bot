@@ -1,0 +1,48 @@
+{
+    "message": {
+        "channel_chat_created": false,
+        "delete_chat_photo": false,
+        "group_chat_created": false,
+        "sticker": {
+            "height": 1080,
+            "is_animated": false,
+            "is_video": false,
+            "type": "regular",
+            "width": 1920,
+            "thumbnail": {
+                "height": 180,
+                "width": 320,
+                "file_id": "AAMCBAADGQEAAxNnBaxf8rjAe8x4tnsVLd8zRlLGeQAC8RQAAsMdMVDcmUF2kcUeLQEAB20AAzYE",
+                "file_size": 3008,
+                "file_unique_id": "AQAD8RQAAsMdMVBy"
+            },
+            "file_id": "CAACAgQAAxkBAAMTZwWsX_K4wHvMeLZ7FS3fM0ZSxnkAAvEUAALDHTFQ3JlBdpHFHi02BA",
+            "file_size": 49110,
+            "file_unique_id": "AgAD8RQAAsMdMVA",
+            "thumb": {
+                "file_id": "AAMCBAADGQEAAxNnBaxf8rjAe8x4tnsVLd8zRlLGeQAC8RQAAsMdMVDcmUF2kcUeLQEAB20AAzYE",
+                "file_unique_id": "AQAD8RQAAsMdMVBy",
+                "file_size": 3008,
+                "width": 320,
+                "height": 180
+            }
+        },
+        "supergroup_chat_created": false,
+        "chat": {
+            "first_name": "Assad",
+            "id": 1805274382,
+            "last_name": "Mus",
+            "type": "private"
+        },
+        "date": 1728425055,
+        "message_id": 19,
+        "from": {
+            "first_name": "Assad",
+            "id": 1805274382,
+            "is_bot": false,
+            "language_code": "en",
+            "last_name": "Mus"
+        }
+    },
+    "update_id": 29764908
+}
