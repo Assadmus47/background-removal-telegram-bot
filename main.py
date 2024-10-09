@@ -1,3 +1,4 @@
+from dotenv import load_dotenv
 import os
 from PIL import Image
 from rembg import remove
@@ -5,8 +6,8 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder , CommandHandler ,ContextTypes ,MessageHandler , filters
 import asyncio
 
-TOKEN = "8145758750:AAH0twErzDQiTKptM6YQYgHg6EYLO2h5owI"
-
+load_dotenv()
+TOKEN = os.getenv("TOKEN")
 async def help (update: Update , context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(chat_id=update.effective_chat.id, text="Hi , I'am a background removel bot . to start click on /start ")
     
