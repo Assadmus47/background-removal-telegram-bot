@@ -1,1 +1,1 @@
-[Bot link](https://t.me/remmyback_bot)
+[Bot link](https://t.me/botRemoveMybg_bot)
